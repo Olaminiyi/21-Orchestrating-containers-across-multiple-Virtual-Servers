@@ -179,7 +179,7 @@ cfssl is an open source tool by Cloudflare used to setup a Public Key Infrastruc
 
 - Create a directory named manual-k8s-cluster
        mkdir manual-k8s-cluster
-### Note cd into manual-k8s-cluster and continue creating necessary resources
+### Note:cd into manual-k8s-cluster and continue creating necessary resources
 
 - Create a VPC and store the ID as a variable:
 
@@ -451,7 +451,7 @@ Self-Signed Root Certificate Authority (CA)
 
 Here, We will provision a CA that will be used to sign additional TLS certificates.
 
-### Create a new directory inside the manual-k8s-cluster directory and cd into it
+### Note:Create a new directory inside the manual-k8s-cluster directory and cd into it
 
            $ mkdir ca-authority && cd ca-authority
 
